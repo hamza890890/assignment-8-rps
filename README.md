@@ -46,3 +46,16 @@ Passes W3C validation and React coding standards.
 Reflection
 
 This project strengthened understanding of React fundamentals including component composition, state management, and event-driven logic. Implementing the animation and scoreboard enhanced practical skills in managing asynchronous updates and shared state across multiple components.
+
+
+# Setup (local)
+1. Ensure Node.js (16+) and npm are installed.
+2. Clone your GitHub repo:
+   ```bash
+   git clone <your-repo-url>
+   cd <repo-folder>
+3. Install and run:
+   ```bash
+   npm install
+   npm run dev
+
