@@ -1,9 +1,9 @@
-CSC372 Web Development
+## CSC372 Web Development
 Assignment 8 Rock Paper Scissors X React
 
 This project is a React-based version of the Rock Paper Scissors game created for CSC372 Web Development. The app allows a user to play against the computer through an interactive React interface built with components, state, and event handling.
 
-Features
+# Features
 
 Player Throw: Displays clickable images for rock, paper, and scissors. The selected image is highlighted.
 
@@ -15,7 +15,7 @@ ScoreBoard: Tracks wins, losses, and ties across rounds.
 
 Reset Button: Clears the score and resets the game state.
 
-Component Structure
+# Component Structure
 
 App: Root component managing game state and logic.
 
@@ -31,7 +31,7 @@ ResetButton: Resets game state and score.
 
 All images are stored in the public/images folder and accessed using relative paths.
 
-Technical Details
+# Technical Details
 
 Built with React using functional components and hooks (useState, useEffect).
 
