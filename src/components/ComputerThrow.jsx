@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 export default function ComputerThrow({ triggerPlayerChoice, onReveal }) {
-  const [currentImg, setCurrentImg] = useState('question-mark')
+  const [currentImg, setCurrentImg] = useState('question')
   const options = ['rock', 'paper', 'scissors']
 
   useEffect(() => {
@@ -21,7 +21,7 @@ export default function ComputerThrow({ triggerPlayerChoice, onReveal }) {
         onReveal(finalPick)
       }, 3000)
     } else {
-      setCurrentImg('question-mark')
+      setCurrentImg('question')
     }
 
     return () => {
