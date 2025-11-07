@@ -1,4 +1,4 @@
-## CSC372 Web Development
+## CSC372 Web Development (See at the very end of this ReadMe File to the link to the demo of this assignment)
 Assignment 8 Rock Paper Scissors X React
 
 This project is a React-based version of the Rock Paper Scissors game created for CSC372 Web Development. The app allows a user to play against the computer through an interactive React interface built with components, state, and event handling.
@@ -58,4 +58,6 @@ This project strengthened understanding of React fundamentals including componen
    ```bash
    npm install
    npm run dev
+4. Open the URL printed by Vite (usually http://localhost:5173).
 
+# Demo Video:
